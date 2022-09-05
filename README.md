@@ -15,7 +15,7 @@ Using an MCV architecture, all routes, models, views, and middleware are appropr
 
 This is a minimum viable product and will be optimized at a later date.
 
-<h2>Packages/Depenencies Used</h2>
+<h2>Packages/Dependencies Used</h2>
 
 bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
