@@ -5,10 +5,21 @@ const TodoSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  
+
+  toWatch:{//toWatch schema
+    type: Boolean,
+    required: true,
+  },
+
+  watching: {//watching schema
+    type: Boolean,
+    required: true,
+  },
+
  watched: {//watched schema
     type: Boolean,
     required: true,
+    
   },
   userId: {
     type: String,
@@ -17,3 +28,4 @@ const TodoSchema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model('Todo', TodoSchema)
+
